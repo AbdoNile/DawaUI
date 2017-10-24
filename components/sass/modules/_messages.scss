@@ -132,6 +132,19 @@
                     opacity: .5;
                 }
             }
+            .contacts_list_Toggle {
+                background: none;
+                border: 0;
+                color: #fff;
+                padding: 0;
+                margin-right: 15px;
+                line-height: 1;
+                position: relative;
+                left: 0;
+                i {
+                    opacity: 1;
+                }
+            }
         }
         .body {
             padding: 10px 0;
@@ -196,7 +209,7 @@
                     background: $galery;
                     margin-left: 70px;
                     margin-right: 0;
-                    border:0;
+                    border: 0;
                     &:before {
                         border-right-color: $galery;
                         left: inherit;
@@ -223,6 +236,31 @@
                 padding: 0;
                 height: auto;
                 color: $secondaryColor;
+            }
+        }
+    }
+    @media(max-width:$phablet) {
+        .contacts_list_Toggle {
+            transition: left .5s;
+            outline: 0;
+            &.active {
+                left: 295px !important;
+                transform: scale(-1,1);
+            }
+        }
+        .contacts_list {
+            position: absolute;
+            max-width: 300px;
+            left: -100%;
+            border: 0;
+            background: #fff;
+            z-index: 99;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, .1);
+            top: 0;
+            bottom: 0;
+            transition: left .5s;
+            &.active {
+                left: 0;
             }
         }
     }
