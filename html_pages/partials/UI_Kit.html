@@ -1,0 +1,201 @@
+<div class="ui_kit">
+    <h1 class="page-title">UI Kit</h1>
+    <div class="alerts">
+        <h2>Modal</h2>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Open Modal</button>
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Modal Header</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Some text in the modal.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-basic" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-success">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="alerts">
+        <h2>Alerts</h2>
+        <div class="alert alert-success">
+            <strong>Success!</strong> Indicates a successful or positive action.
+        </div>
+        <div class="alert alert-danger">
+            <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+        </div>
+        <div class="alert alert-info">
+            <strong>Info!</strong> Indicates a neutral informative change or action.
+        </div>
+        <div class="alert alert-warning">
+            <strong>Warning!</strong> Indicates a warning that might need attention.
+        </div>
+    </div>
+    <div class="buttons">
+        <h2>Buttons</h2>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-default">Default</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-basic">Basic</button>
+    </div>
+    <div class="form">
+        <h2>Form Controls</h2>
+        <div class="form-horizontal">
+            <div class="form-group">
+                <label for="" class="col-sm-3 control-label">Text Field</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="col-sm-3 control-label">Datepicker</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control datepicker">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="col-sm-3 control-label">Text Field with autocomplete</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control has_autocomplete">
+                    <ul class="autocomplete">
+                        <li><a href="#">Option 1</a></li>
+                        <li><a href="#">Option 2</a></li>
+                        <li><a href="#">Option 3</a></li>
+                        <li><a href="#">Option 4</a></li>
+                        <li><a href="#">Option 5</a></li>
+                        <li><a href="#">Option 6</a></li>
+                        <li><a href="#">Option 7</a></li>
+                        <li><a href="#">Option 8</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="col-sm-3 control-label">Text Field Validation</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control error">
+                    <label class="error">Requried</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="col-sm-3 control-label">Select Field</label>
+                <div class="col-sm-9">
+                    <Select class="form-control">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                    </Select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="col-sm-3 control-label">Select Field Validation</label>
+                <div class="col-sm-9">
+                    <Select class="form-control error">
+                    <label class="error">Requried</label>">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                    </Select>
+                    <label class="error">Requried</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="col-sm-3 control-label">Textarea</label>
+                <div class="col-sm-9">
+                    <textarea class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="col-sm-3 control-label">Checkbox Block</label>
+                <div class="col-sm-9">
+                    <div class="checkbox">
+                        <input type="checkbox" id="checkbox_1" value="">
+                        <label for="checkbox_1">Block</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="checkbox_2" value="">
+                        <label for="checkbox_2">Block 2</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="col-sm-3 control-label">Checkbox Validation</label>
+                <div class="col-sm-9">
+                    <div class="checkbox">
+                        <label class="error">Requried</label>
+                        <input type="checkbox" id="checkbox_3" class="error" value="">
+                        <label for="checkbox_3">Block</label>
+                    </div>
+                    <div class="checkbox">
+                        <label class="error">Requried</label>
+                        <input type="checkbox" id="checkbox_4" class="error" value="">
+                        <label for="checkbox_4">Block 2</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="col-sm-3 control-label">Checkbox Inline</label>
+                <div class="col-sm-9">
+                    <div class="checkbox-inline">
+                        <input type="checkbox" id="checkbox_inline_1" value="">
+                        <label for="checkbox_inline_1">Inline 1</label>
+                    </div>
+                    <div class="checkbox-inline">
+                        <input type="checkbox" id="checkbox_inline_2" value="">
+                        <label for="checkbox_inline_2">Inline 2</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="col-sm-3 control-label">Checkbox Inline Validation</label>
+                <div class="col-sm-9">
+                    <div class="checkbox-inline">
+                        <label class="error">Requried</label>
+                        <input type="checkbox" id="checkbox_inline_3" class="error" value="">
+                        <label for="checkbox_inline_3">Inline 1</label>
+                    </div>
+                    <div class="checkbox-inline">
+                        <label class="error">Requried</label>
+                        <input type="checkbox" id="checkbox_inline_4" class="error" value="">
+                        <label for="checkbox_inline_4">Inline 2</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="col-sm-3 control-label">Radio Block</label>
+                <div class="col-sm-9">
+                    <div class="radio">
+                        <input type="radio" id="radio_1" name="radio_block" value="1">
+                        <label for="radio_1">Block 1</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="radio_2" name="radio_block" value="2">
+                        <label for="radio_2">Block 2</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="col-sm-3 control-label">Radio Inline</label>
+                <div class="col-sm-9">
+                    <div class="radio-inline">
+                        <input type="radio" id="radio_inline_1" name="radio_inline" value="1">
+                        <label for="radio_inline_1">Inline 1</label>
+                    </div>
+                    <div class="radio-inline">
+                        <input type="radio" id="radio_inline_2" name="radio_inline" value="2">
+                        <label for="radio_inline_2">Inline 2</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

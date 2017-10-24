@@ -1,0 +1,22 @@
+{
+  "name": "Workflow",
+  "description": "Shaarawy's Init",
+  "authors": [
+    "Shaarawy"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "^2.2.12",
+    "breakpoint-sass": "^2.7.0",
+    "eonasdan-bootstrap-datetimepicker": "^4.17.47"
+  }
+}
